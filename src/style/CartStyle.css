@@ -1,0 +1,93 @@
+.TitleCart__Wrapper {
+    width: 55vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 6vh;
+    gap: 69%;
+    flex-direction: row;
+}
+.PhotoL {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5vw;
+}
+.Direction {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.Text1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(80, 80, 80);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.Text1:hover {
+    text-decoration:underline;
+    color: black;
+}
+
+.Text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.ProductCart__Wrapper {
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 1em 1em;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.Info_Wrapper {
+    width: 55vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 6vh;
+    gap: 60%;
+    flex-direction: row;
+}
+.Text2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.ButtonCart__Wrapper {
+    width: 55vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 10vh;
+    gap: 70%;
+    flex-direction: row;
+}
+.Btn_3 {
+    width: 150px;
+    height: 55px;
+    padding: 5px 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    margin-right: 0.5em;
+}
+.Btn_3:hover {
+    background: whitesmoke;
+    box-shadow: 0 15px 20px rgba(150, 150, 150, 0.4);
+    color: black;
+    
+  }
