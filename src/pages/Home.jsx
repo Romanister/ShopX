@@ -1,5 +1,6 @@
 import Head from "../components/HeadNav"
 import Popup from '../components/Popup';
+import Products from "../components/Products";
 import "../style/App.css";
 const Home = () => {
     return(
@@ -8,6 +9,7 @@ const Home = () => {
         <Head/>
         <Popup/>
         </div>
+        <Products/>
         </>
     )
 }

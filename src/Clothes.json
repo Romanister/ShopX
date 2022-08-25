@@ -1,0 +1,271 @@
+[{
+    "id": 1,
+    "price": 13500,
+    "popular": 8,
+    "size": [41,42,44,45],
+    "name": "КРОССОВКИ PROPHERE",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/126799b4f5964a7f82ecaa5c00cb9a2c_9366/Krossovki_Prophere_chernyj_EE4734_01_standard.jpg",
+    "category": "sneakers"
+},
+{
+    "id": 2,
+    "price": 75000,
+    "popular": 9.5,
+    "size": [39,41,42],
+    "name": "КРОССОВКИ A+P LUNA ROSSA 21",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a8aa3794e41d4155bca8ac8400d10c15_9366/Krossovki_A+P_LUNA_ROSSA_21_chernyj_G57868_01_standard.jpg",
+    "category": "sneakers"
+},
+{
+    "id": 3,
+    "price": 31999,
+    "popular": 10,
+    "size": [40],
+    "name": "КРОССОВКИ CRAZY 1 A//D",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0abab7d7f1794fa895b8ac8300f09f2b_9366/Krossovki_Crazy_1_A--D_belyj_AC8213_01_standard.jpg",
+    "category": "sneakers"
+},
+{
+    "id": 4,
+    "price": 30000,
+    "popular": 8.8,
+    "size": [40,41,42,43],
+    "name": "КРОССОВКИ NMD_R1 PRIMEBLUE",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c10fcd90c433455e8f79ad0800cb4469_9366/Krossovki_NMD_R1_Primeblue_chernyj_GZ9257_01_standard.jpg",
+    "category": "sneakers"
+},
+{
+    "id": 5,
+    "price": 27999,
+    "popular": 7.7,
+    "size": [40,42],
+    "name": "КРОССОВКИ BOSSK NMD_R1 SPECTOO",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/055fdd9a8c5b4c42b74cadb700edb0e4_9366/Krossovki_Bossk_NMD_R1_Spectoo_chernyj_GX6792_01_standard.jpg",
+    "category": "sneakers"
+},
+{
+    "id": 6,
+    "price": 25000,
+    "popular": 9.1,
+    "size": [41,44,45],
+    "name": "БОТИНКИ AKANDO ATR",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2b3f32c4659544d78944ac4d00031943_9366/Botinki_Akando_ATR_chernyj_FV5130_01_standard.jpg",
+    "category": "sneakers"
+},
+{
+    "id": 7,
+    "price": 20000,
+    "popular": 8.7,
+    "size": [39,40,41],
+    "name": "КРОССОВКИ SUPERSTAR",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/70f4ddd47e964623851badc00105e3e8_9366/Krossovki_Superstar_chernyj_GX8826_01_standard.jpg",
+    "category": "sneakers"
+},
+{
+    "id": 8,
+    "price": 19999,
+    "popular": 9.3,
+    "size": [40,41,42],
+    "name": "КРОССОВКИ FORUM MID",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/13085062e6fd497fb6faac5e00302b1b_9366/Krossovki_Forum_Mid_belyj_FY4975_01_standard.jpg",
+    "category": "sneakers"
+},
+{
+    "id": 9,
+    "price": 17500,
+    "popular": 9.8,
+    "size": [41],
+    "name": "КРОССОВКИ OZWEEGO",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9dfdf1cdd1f347508ca7ade101175c3e_9366/Krossovki_OZWEEGO_chernyj_GX3295_01_standard.jpg",
+    "category": "sneakers"
+},
+{
+    "id": 10,
+    "price": 18500,
+    "popular": 7.9,
+    "size": [42,43],
+    "name": "КРОССОВКИ OZELIA",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2d47865bc8143acb3c0ad2401570a53_9366/Krossovki_Ozelia_chernyj_H04250_01_standard.jpg",
+    "category": "sneakers"
+},
+{
+    "id": 11,
+    "price": 2000,
+    "popular": 9.2,
+    "size": [27],
+    "name": "ТРИ ПАРЫ НОСКОВ NO-SHOW",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/188d1c5a9d114e4eaef7a9d300ad7e16_9366/Tri_pary_noskov_No-Show_raznocvetnyj_DZ9414_03_standard.jpg",
+    "category": "socks"
+},
+{
+    "id": 12,
+    "price": 2100,
+    "popular": 7.8,
+    "size": [27],
+    "name": "НОСКИ 3-STRIPES CUSHIONED",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7a9b2c6bb14f4b108a27a9d300abc4fe_9366/Noski_3-Stripes_Cushioned_belyj_DZ9346_03_standard.jpg",
+    "category": "socks"
+},
+{
+    "id": 13,
+    "price": 1900,
+    "popular": 8.8,
+    "size": [27],
+    "name": "ДВЕ ПАРЫ НОСКОВ CAMO",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/607d7171fbba4128b0b4ad9a0103728f_9366/Dve_pary_noskov_Camo_chernyj_HC9528_03_standard.jpg",
+    "category": "socks"
+},
+{
+    "id": 14,
+    "price": 1800,
+    "popular": 9.1,
+    "size": [27],
+    "name": "КОРОТКИЕ НОСКИ ДЛЯ БЕГА PERFORMANCE",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e9c4c5e0d24d478a935cad9f010727e6_9366/Korotkie_noski_dlya_bega_Performance_chernyj_HE4972_03_standard.jpg",
+    "category": "socks"
+},
+{
+    "id": 15,
+    "price": 2500,
+    "popular": 9,
+    "size": [27],
+    "name": "ТРИ ПАРЫ НОСКОВ BASKETBALL CREW",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a8df4291604b4f8bb2bead750109dd44_9366/Tri_pary_noskov_Basketball_Crew_zheltyj_H44349_03_standard.jpg",
+    "category": "socks"
+},
+{
+    "id": 16,
+    "price": 2300,
+    "popular": 10,
+    "size": [27],
+    "name": "ДВЕ ПАРЫ НОСКОВ MONOGRAM THIN",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8d3a9bfb932542f38ad2ada1006acd7e_9366/Dve_pary_noskov_Monogram_Thin_belyj_HC3453_03_standard.jpg",
+    "category": "socks"
+},
+{
+    "id": 17,
+    "price": 2000,
+    "popular": 8.9,
+    "size": [27],
+    "name": "ТРИ ПАРЫ НОСКОВ CUSHIONED",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/186676ba8f2d413c906daa2a0122fafd_9366/Tri_pary_noskov_Cushioned_chernyj_DZ9379_03_standard.jpg",
+    "category": "socks"
+},
+{
+    "id": 18,
+    "price": 2800,
+    "popular": 9,
+    "size": [27],
+    "name": "НОСКИ КЛАССИЧЕСКОЙ ДЛИНЫ С МЯГКИМИ ВСТАВКАМИ",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/072490eb991f47acaf5bada0010a92da_9366/Noski_klassicheskoj_dliny_s_myagkimi_vstavkami_belyj_HA0113_03_standard.jpg",
+    "category": "socks"
+},
+{
+    "id": 19,
+    "price": 3000,
+    "popular": 10,
+    "size": [27],
+    "name": "НОСКИ TEAM SLEEVE 22",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2012d112f7c413daafbad9a0098ce1b_9366/Noski_TEAM_SLEEVE_22_chernyj_HB8780_03_standard.jpg",
+    "category": "socks"
+},
+{
+    "id": 20,
+    "price": 2700,
+    "popular": 10,
+    "size": [27],
+    "name": "ДВЕ ПАРЫ НОСКОВ FUN GRAPHIC",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/324e2783ffa24d65ba87add000888989_9366/Dve_pary_noskov_Fun_Graphic_belyj_HC9537_03_standard.jpg",
+    "category": "socks"
+},
+{
+    "id": 21,
+    "price": 7000,
+    "popular": 9,
+    "size": [46,48,50,52],
+    "name": "ДЖЕМПЕР CORE 18",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c5311b44fbd243f9a00fa82400bb548c_9366/Dzhemper_Core_18_sinij_CV3959_01_laydown.jpg",
+    "category": "hoody"
+},
+{
+    "id": 22,
+    "price": 8000,
+    "popular": 10,
+    "size": [48],
+    "name": "ТОЛСТОВКА ESSENTIALS 3-STRIPES",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a442aacdcf454509b326a92200c08484_9366/Tolstovka_Essentials_3-Stripes_chernyj_DQ3102_01_laydown.jpg",
+    "category": "hoody"
+},
+{
+    "id": 23,
+    "price": 15000,
+    "popular": 8.5,
+    "size": [46,48,50],
+    "name": "ДЖЕМПЕР ESSENTIALS",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/344f9e163227472bbef2a9f20110e2b4_9366/Dzhemper_Essentials_belyj_ED6208_01_laydown.jpg",
+    "category": "hoody"
+},
+{
+    "id": 24,
+    "price": 15000,
+    "popular": 10,
+    "size": [50,52],
+    "name": "ТОЛСТОВКА MUST HAVES",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4ebbcbd9bcaf4ad0bc93a9f300bfecf3_9366/Tolstovka_Must_Haves_chernyj_EB5272_01_laydown.jpg",
+    "category": "hoody"
+},
+{
+    "id": 25,
+    "price": 15000,
+    "popular": 8.8,
+    "size": [48,50],
+    "name": "ХУДИ TREFOIL ESSENTIALS",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a284c22e21ca43a5a762aae100ee16c6_9366/Hudi_Trefoil_Essentials_chernyj_FM9956_01_laydown.jpg",
+    "category": "hoody"
+},
+{
+    "id": 26,
+    "price": 10000,
+    "popular": 8,
+    "size": [46,48],
+    "name": "ДЖЕМПЕР 3-STRIPES",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d1eec5f792c047e3acbfa9f401648952_9366/Dzhemper_3-Stripes_chernyj_EI8994_01_laydown.jpg",
+    "category": "hoody"
+},
+{
+    "id": 27,
+    "price": 13000,
+    "popular": 9,
+    "size": [46],
+    "name": "ДЖЕМПЕР ESSENTIALS 3-STRIPES",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2ecbc5cc2e3640c4aa24abc700bd3586_9366/Dzhemper_Essentials_3-Stripes_krasnyj_GD5377_01_laydown.jpg",
+    "category": "hoody"
+},
+{
+    "id": 28,
+    "price": 15000,
+    "popular": 7.5,
+    "size": [46,48],
+    "name": "ТОЛСТОВКА MUST HAVES STADIUM",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/99352d37e32445e99dd3ab8e0082846a_9366/Tolstovka_Must_Haves_Stadium_seryj_FU0036_01_laydown.jpg",
+    "category": "hoody"
+},
+{
+    "id": 29,
+    "price": 15000,
+    "popular": 9,
+    "size": [46,48,50],
+    "name": "ХУДИ GRAPHICS TREFOIL SERIES",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5ed8f1cd30ab4ee98966ad57010bb9a5_9366/Hudi_Graphics_Trefoil_Series_zelenyj_H13499_01_laydown.jpg",
+    "category": "hoody"
+},
+{
+    "id": 30,
+    "price": 15000,
+    "popular": 10,
+    "size": [46,50],
+    "name": "ХУДИ GRAPHICS ORIGINALS ATTRIBUTE PACK",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/dab48fdf6f694091ab89ad5c00d8b936_9366/Hudi_Graphics_Originals_Attribute_Pack_bezhevyj_H18401_01_laydown.jpg",
+    "category": "hoody"
+}
+]

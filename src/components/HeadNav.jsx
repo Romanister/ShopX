@@ -20,20 +20,6 @@ import { clearItems, setItems } from "../Rtk/clothes/slice";
 const Head = () => {
   let total_price = "1000"
   
-  const dispatch = useDispatch();
-  const clothesStore = useSelector(state=>state.clothes);
-
-  useEffect(()=>{
-    dispatch(setItems({
-      id:1,
-      name:"S",
-    }))
-    dispatch(clearItems())
-  },[]);
-
-  useEffect(()=>{
-      console.log(clothesStore);
-  },[clothesStore.items])
 
   const [modalActive, setModalActive] = useState();
   const [modalActiveP, setModalActiveP] = useState();
@@ -63,7 +49,7 @@ const Head = () => {
         </div>
       </div>
       <div className="ButtonCart__Wrapper">
-        <button className="Btn_3"> Вернуться назад</button>
+        <button className="Btn_3" onClick={() => setModalActive(false)}> Вернуться назад</button>
         <button className="Btn_3">Оплатить</button>
       </div>
     </Modal>

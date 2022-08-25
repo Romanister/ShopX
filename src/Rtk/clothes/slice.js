@@ -1,4 +1,5 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import axios from "axios";
 
 export const clothesSlice = createSlice({
     name: "clothes",
@@ -15,7 +16,8 @@ export const clothesSlice = createSlice({
     }
 })
 
-export const {setItems, clearItems} = clothesSlice.actions;
+
+export const {setItems, clearItems, addClothes} = clothesSlice.actions;
 
 export const selectClothes = (state) => state.clothes;
 
