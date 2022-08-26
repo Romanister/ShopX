@@ -8,8 +8,20 @@ import { fetchClothes, setItems } from "../Rtk/clothes/slice";
 import {useDispatch, useSelector} from "react-redux"
 import { fetchClothe } from "../Rtk/clothes/customer";
 import star from "../assets/star.png"
+import Products1 from "./Size";
+
 
 const Products = () => {
+
+  // const Size = ({active,setActive, children}) => {
+  //   return(
+  //       <div className={active ? 'Size active':'Size'} onClick={() => setActive(true)}>
+  //           {children}
+  //       </div>
+  //   )
+    
+  // }
+  
     const dispatch = useDispatch();
     // const getClothes = async () => {
     //     const data = await  axios.get(`https://6300bf109a1035c7f8f73b67.mockapi.io/Products`)
@@ -36,7 +48,7 @@ const Products = () => {
     
     return (
         <>
-          <div className="Products__wrapper">
+          {/* <div className="Products__wrapper">
             {clothesStore.items.map((photo) => (
               <div className="Photo__Wrapper" key={photo.id}>
                 <img src={photo.imgUrl} alt="photo" className="Photo"/>
@@ -44,13 +56,13 @@ const Products = () => {
                   {photo.name}
                 </div>
                 <div className="Size_Wrapper">
-                  <ul>
-                    {photo.size.map((size,index)=>
-                      <li className="Size" key={index}>
+                  <div>
+                    {photo.size.map((size,i)=>
+                      <div key={size} onClick={() => setSizeActive(i)} className={sizeActive === i ? 'Size active' : 'Size'} >
                         {size}
-                      </li>
+                      </div>
                     )}
-                  </ul>
+                  </div>
                 </div>
                 <div className="Price__Wrapper">
                     <div className="Title__Price">
@@ -64,7 +76,16 @@ const Products = () => {
                 </div>
               </div>
             ))}
-          </div >
+          </div > */}
+          <div className="Products__wrapper">
+          {clothesStore.items.map((product)=>{
+              return (
+                <Products1 name = {product.name} size = {product.size} imgUrl = {product.imgUrl} key={product.id} popular = {product.popular} price = {product.price}>
+
+                </Products1>
+              )
+          })}
+          </div>
         </>
       );
         
