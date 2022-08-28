@@ -51,13 +51,16 @@
 .cart__logo {
     width: 4em;
     height: 2.5em;
+    cursor: pointer;
 }
 .price {
     text-decoration: none;
     text-align: center;
     color: black;
+    cursor: pointer;
 }
 .profile {
     width: 4em;
     height: 2.8em;
+    cursor: pointer;
 }

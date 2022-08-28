@@ -37,12 +37,15 @@
 .ProductCart__Wrapper {
     width: 55vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
     height: 50vh;
     margin: 1em 1em;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+    overflow: auto;
 }
 .Info_Wrapper {
     width: 55vw;
@@ -90,4 +93,26 @@
     box-shadow: 0 15px 20px rgba(150, 150, 150, 0.4);
     color: black;
     
+  }
+
+  .CartImg {
+    width: 10vw;
+    height: 15vh;
+  }
+
+  .ProductCart {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15vh;
+    width: 15vw;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vh;
+    text-align: center;
   }

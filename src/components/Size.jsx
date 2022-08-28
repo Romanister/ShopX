@@ -1,21 +1,48 @@
 
-import { React, useState } from "react";
+import { React, useEffect, useState } from "react";
 import "../style/App.css";
 import "../style/Products.css";
 import "../style/PopupStyle.css";
 import star from "../assets/star.png"
-import { plusItem, removeItem, minusItem, clearItems  } from "../Rtk/clothes/customer";
-
+import { removeItems, pushItems  } from "../Rtk/clothes/customer";
+import {useDispatch, useSelector} from "react-redux"
 
 
 
 const Products1 = ({name, size, imgUrl, id, popular, price }) => {
+  
+  const cartItems = useSelector (state=>state.cart);
+  const dispatch = useDispatch();
+  const [sizeActive, setSizeActive] = useState(0);
 
 
 
-
-    const [sizeActive, setSizeActive] = useState(0);
+  const onClickAddToCart = () => {
+    let prev_size = '';
+    let _sizes = [];
+    console.log(cartItems.items)
+    // if(cartItems.items.length !== 0) {
+    //   prev_size = cartItems.items.size[0];
+    //   if(prev_size !== size[sizeActive]) {
+    //     _sizes = [prev_size, size[sizeActive]];
+    //   }
+    // }
+    const item = {
+      id:id,
+      name,
+      price,
+      popular,
+      size: _sizes.length !== 0 ? [..._sizes] : [size[sizeActive]],
+      imgUrl,
+      count: cartItems.items?.count === undefined ? 1 : cartItems.items.count + 1,
+    }
+    dispatch(pushItems(item));
+  }
     
+  useEffect(()=>{
+    console.log(cartItems)
+  },[cartItems.items])
+
     return(
         <>
           
@@ -40,7 +67,7 @@ const Products1 = ({name, size, imgUrl, id, popular, price }) => {
                     </div>
                     <div>
                     
-                    <button className="Btn_1">+ Добавить</button>
+                    <button className="Btn_1" onClick={onClickAddToCart}>+ Добавить</button>
                     </div>
                 </div>
               </div>
