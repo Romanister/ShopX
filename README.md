@@ -10,3 +10,4 @@ https://user-images.githubusercontent.com/111681330/187062628-83666f83-cbbf-41a8
 
 ### - React 
 ### - Redux Toolkit
+### - mockAPI
