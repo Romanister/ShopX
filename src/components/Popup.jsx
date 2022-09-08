@@ -2,8 +2,8 @@ import "../style/App.css";
 import "../style/PopupStyle.css";
 import Select from "react-select";
 import React, { useState } from "react";
-import { useSelector,useDispatch} from "react-redux";
-import { Link } from "react-router-dom";
+import { useDispatch} from "react-redux";
+
 import { clearItems,setItems } from "../Rtk/clothes/slice";
 import axios from "axios";
 
@@ -45,11 +45,7 @@ const Popup = () => {
             dispatch(setItems(data))
     }
     
-    // const Sort = async (props) => {
-    //     clearItems()
-    //     const {data} = await axios.get(`https://6300bf109a1035c7f8f73b67.mockapi.io/api/Clothes?sortBy=${props}`)
-    //         dispatch(setItems(data))
-    // }
+    
     
 
     return(

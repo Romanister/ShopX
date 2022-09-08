@@ -1,19 +1,15 @@
-import Home  from '../pages/Home'
+import Home from "../pages/Home";
 
-import React from 'react';
-import {Routes, Route,} from 'react-router-dom';
-
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 
 const Navigation = () => {
-    return(
-<Routes>
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="*" element={<Home />} />
+    </Routes>
+  );
+};
 
-<Route path="/" element={<Home/>}/>
-<Route path="*" element={<Home/>}/>
-
-    
-</Routes>   
-    )
-}
-
-export default Navigation
+export default Navigation;
